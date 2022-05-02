@@ -4,10 +4,10 @@ export default function ExpenseDate(props) {
     let year = props.date.getFullYear();
 
     return (
-        <pre>
+        <div className={'expense_date'}>
             <div>{month}</div>
             <div>{day}</div>
             <div>{year}</div>
-        </pre>
+        </div>
     )
 }
