@@ -1,0 +1,29 @@
+.expense_container{
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 11px;
+    background-color: #dddddd50;
+    padding: 0 20px;
+    /*min-height: 40px;*/
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 10px black;
+}
+
+.expense_container div{
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rebeccapurple;
+    width: 80%;
+    margin: 20px auto;
+}
+.expense_container p{
+    background-color: rebeccapurple;
+    padding: 20px;
+    border-radius: 11px;
+    color: white;
+
+}
