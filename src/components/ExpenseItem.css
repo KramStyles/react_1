@@ -1,8 +1,8 @@
 .expense_container{
     margin: 10px auto;
     width: 90%;
-    border-radius: 11px;
-    background-color: #dddddd50;
+    border-radius: 15px;
+    background-color: #cccccc50;
     padding: 0 20px;
     /*min-height: 40px;*/
     display: flex;
@@ -23,7 +23,8 @@
 .expense_container p{
     background-color: rebeccapurple;
     padding: 20px;
-    border-radius: 11px;
+    border-radius: 15px;
     color: white;
+    border: 3px solid black;
 
 }
