@@ -38,7 +38,7 @@ export default function ExpenseForm() {
             'amount': amount,
             'date': new Date(date),
         }
-        console.log(expenseData)
+        
         setTitle('')
         setAmount('')
         setDate('')
