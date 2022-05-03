@@ -3,6 +3,8 @@
 :root{
     --radius: 15px;
     --darky: #aaa;
+    --transit: .4s ease all;
+    --fast-transit: .1s ease all;
 }
 body{
     font-family: poppins;
@@ -22,7 +24,7 @@ body{
     display: flex;
     align-items: center;
     box-shadow: 3px 3px 10px var(--darky);
-    transition: .4s ease all;
+    transition: var(--transit);
 }
 .expense_container:hover{
     background-color: #fff;
