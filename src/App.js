@@ -11,8 +11,7 @@ function App() {
         return <ExpenseItem title={items.title} id={items.id} date={items.date} amount={items.amount}/>
     })
     return (
-        <div>
-            <h1>Hello and Good morning</h1>
+        <div className={'main_container'}>
             {details}
         </div>
     );
