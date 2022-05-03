@@ -1,9 +1,10 @@
 .expense_form{
     background-color: mediumpurple;
-    padding: 10px;
+    padding: var(--radius);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
+    border-radius: var(--radius);
 }
 .form_input input{
     width: 90%;
