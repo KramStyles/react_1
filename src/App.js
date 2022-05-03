@@ -1,6 +1,6 @@
 import ExpenseItem from "./components/Expenses/ExpenseItem";
 
-function App() {
+const App = () => {
     const expenses = [
         {'id': 1, 'title': 'Toilet Paper', amount: 0.99, 'date': new Date(2021, 11, 12)},
         {'id': 2, 'title': 'Groceries', amount: 17.99, 'date': new Date(2021, 1, 2)},
