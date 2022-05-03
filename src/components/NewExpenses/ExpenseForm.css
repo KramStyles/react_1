@@ -1,0 +1,45 @@
+.expense_form{
+    background-color: mediumpurple;
+    padding: var(--radius);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    border-radius: var(--radius);
+}
+.form_input input{
+    width: 90%;
+    padding: var(--radius);
+    border: none;
+    border-radius: 7px;
+    transition: var(--transit);
+}
+.form_input input:focus{
+    outline: none;
+    background-color: #ddd;
+}
+.form_submit{
+    grid-column: 1/-1;
+}
+.form_submit input{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+    padding: var(--radius);
+    border-radius: var(--radius);
+    text-align: center;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-variant: small-caps;
+    transition: var(--transit);
+    cursor: pointer;
+}
+.form_submit input:hover{
+    box-shadow: 0 1px 8px black;
+    background-color: darkviolet;
+}
+.form_submit input:active{
+    transition: var(--fast-transit);
+    background-color: black;
+    transform: scale(0.95);
+}
