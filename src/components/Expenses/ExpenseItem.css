@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+:root{
+    --radius: 15px;
+    --darky: #aaa;
+}
+body{
+    font-family: poppins;
+}
+.main_container{
+    width: 70%;
+    margin: 50px auto;
+    padding: var(--radius);
+    background-color: var(--darky);
+    border-radius: var(--radius);
+}
+.expense_container{
+    margin: 10px auto;
+    border-radius: var(--radius);
+    background-color: #eeeeee;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 10px var(--darky);
+}
+
+.expense_container .div{
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rebeccapurple;
+    width: 80%;
+    margin: 20px auto;
+}
+.expense_container .p{
+    background-color: rebeccapurple;
+    padding: 20px;
+    border-radius: var(--radius);
+    color: white;
+    border: 3px solid var(--darky);
+
+}
+.expense_date{
+    width: 160px;
+    height: 100px;
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius);
+    font-weight: bold;
+    border: 5px solid var(--darky);
+    margin: auto var(--radius);
+}
+.expense_date div:first-child{
+    font-size: 20px;
+}
+.expense_date div:last-child{
+    font-size: 1.8em;
+}
